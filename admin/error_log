@@ -1,0 +1,48 @@
+[22-Aug-2020 07:57:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/paapil/public_html/admin/comment.php on line 384
+[22-Aug-2020 07:59:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Post::allCommentsFilter() in /home/paapil/public_html/admin/comment.php:590
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/comment.php on line 590
+[22-Aug-2020 07:59:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Post::allComments(), 0 passed in /home/paapil/public_html/admin/comment.php on line 590 and exactly 1 expected in /home/paapil/public_html/core/classes/post.php:1775
+Stack trace:
+#0 /home/paapil/public_html/admin/comment.php(590): Post->allComments()
+#1 {main}
+  thrown in /home/paapil/public_html/core/classes/post.php on line 1775
+[22-Aug-2020 08:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Post::allHashtags() in /home/paapil/public_html/admin/hashtag.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/hashtag.php on line 25
+[22-Aug-2020 08:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Post::allMessagesForAdmin() in /home/paapil/public_html/admin/messages.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/messages.php on line 27
+[22-Aug-2020 09:36:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Post::allBlocks() in /home/paapil/public_html/admin/block.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/block.php on line 25
+[22-Aug-2020 10:04:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Post::allReports() in /home/paapil/public_html/admin/report.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/report.php on line 26
+[22-Aug-2020 15:20:30 UTC] PHP Warning:  include(include/deletModal.php): failed to open stream: No such file or directory in /home/paapil/public_html/admin/post.php on line 919
+[22-Aug-2020 15:20:30 UTC] PHP Warning:  include(): Failed opening 'include/deletModal.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/paapil/public_html/admin/post.php on line 919
+[22-Aug-2020 15:21:06 UTC] PHP Warning:  include(include/deletModal.php): failed to open stream: No such file or directory in /home/paapil/public_html/admin/post.php on line 919
+[22-Aug-2020 15:21:06 UTC] PHP Warning:  include(): Failed opening 'include/deletModal.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/paapil/public_html/admin/post.php on line 919
+[22-Aug-2020 15:21:27 UTC] PHP Warning:  include(include/deletModal.php): failed to open stream: No such file or directory in /home/paapil/public_html/admin/index.php on line 868
+[22-Aug-2020 15:21:27 UTC] PHP Warning:  include(): Failed opening 'include/deletModal.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/paapil/public_html/admin/index.php on line 868
+[22-Aug-2020 15:23:34 UTC] PHP Warning:  include(include/deletModal.php): failed to open stream: No such file or directory in /home/paapil/public_html/admin/index.php on line 868
+[22-Aug-2020 15:23:34 UTC] PHP Warning:  include(): Failed opening 'include/deletModal.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/paapil/public_html/admin/index.php on line 868
+[22-Aug-2020 15:23:41 UTC] PHP Warning:  include(include/deletModal.php): failed to open stream: No such file or directory in /home/paapil/public_html/admin/index.php on line 868
+[22-Aug-2020 15:23:41 UTC] PHP Warning:  include(): Failed opening 'include/deletModal.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/paapil/public_html/admin/index.php on line 868
+[22-Aug-2020 16:32:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::usernameByUserId() in /home/paapil/public_html/admin/messages.php:653
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/messages.php on line 653
+[22-Aug-2020 16:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::usernameByUserId() in /home/paapil/public_html/admin/messages.php:653
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/messages.php on line 653
+[22-Aug-2020 16:32:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::usernameByUserId() in /home/paapil/public_html/admin/messages.php:653
+Stack trace:
+#0 {main}
+  thrown in /home/paapil/public_html/admin/messages.php on line 653
